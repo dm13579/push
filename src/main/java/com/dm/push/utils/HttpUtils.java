@@ -24,8 +24,7 @@ public class HttpUtils {
 
     public String getResponseResult(String url, Map<String, Object> paramMap){
         HttpHeaders headers = new HttpHeaders();
-//			handlerRequestType(entity, headers, invokeEntity);
-        HttpEntity request = new HttpEntity(headers);
+        HttpEntity<String> request = new HttpEntity<>(headers);
 
         // 构建queryParam
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(url);
