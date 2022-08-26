@@ -1,0 +1,20 @@
+﻿server:
+  port: 5555
+
+spring:
+  application:
+    name: dm-wxPush
+
+dm:
+  wx:
+    appId: wx1f68b97d4402ddee
+    secret: a8b857a0585f0eadbd00b73edf6373d7
+  tian:
+    key: 9cf031e640101bbd820b9810d77ca456
+    caihongpi: http://api.tianapi.com/caihongpi/index
+    ensentence: http://api.tianapi.com/ensentence
+  weather:
+    url: https://api.map.baidu.com/weather/v1
+    districtId:
+    dataType: all
+    ak:
