@@ -15,6 +15,6 @@ dm:
     ensentence: http://api.tianapi.com/ensentence
   weather:
     url: https://api.map.baidu.com/weather/v1
-    districtId:
+    districtId: 310115
     dataType: all
     ak:
