@@ -21,7 +21,7 @@ public class PushScheduler {
 
     @Scheduled(cron = "0 0 8 * * ?")
     public void wxPush() {
-        //wxService.push();
+        wxService.push();
         emailService.push();
     }
 }

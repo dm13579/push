@@ -7,8 +7,11 @@ spring:
 
 dm:
   wx:
-    appId: wx1f68b97d4402ddee
-    secret: a8b857a0585f0eadbd00b73edf6373d7
+    appId: wx405eb29b1fb31622
+    secret: ad05658336cbd1bc39a6e9ac37b6938b
+    templateId: tBkqw0Gc6JpC484UJfIIQgaTOqNNl5DmAv8_d0HjhGU
+    userIds:
+      - oX5Nv6UxH1wcpRv65Z00su3XOAw4
   tian:
     key: 9cf031e640101bbd820b9810d77ca456
     caihongpi: http://api.tianapi.com/caihongpi/index
